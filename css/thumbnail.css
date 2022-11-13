@@ -1,0 +1,70 @@
+@import url(components/navbar.css);
+
+*{
+  margin: 0!important;
+  padding: 0!important;
+  text-decoration: none!important;
+  list-style: none!important;
+  font-family: 'Poppins'!important;
+}
+
+.navbar .nav-links ul li.active a {
+  color: rgb(255, 255, 255)!important;
+  font-weight: 600!important;
+}
+
+::-webkit-scrollbar {
+  display : none!important;
+}
+
+::-webkit-scrollbar-track {
+  display : none!important;
+}
+
+body {
+  background-color: black!important;
+}
+
+.thumbnail {
+  width: 100%!important;
+  height: 100%!important;
+  font-size: 0px!important;
+}
+
+.thumbnail img {
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.image-1 {
+  width: 100%!important;
+  height: 100%!important;
+  font-size: 0px!important;
+}
+
+.image-1 img {
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.image-2 {
+  width: 100%!important;
+  height: 100%!important;
+  font-size: 0px!important;
+}
+
+.image-2 img {
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.image-3 {
+  width: 100%!important;
+  height: 100%!important;
+  font-size: 0px!important;
+}
+
+.image-3 img {
+  width: 100%!important;
+  height: 100%!important;
+}

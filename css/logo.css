@@ -1,0 +1,100 @@
+@import url(components/navbar.css);
+@import url(components/card2.css);
+
+*{
+    margin: 0!important;
+    padding: 0!important;
+    text-decoration: none!important;
+    list-style: none!important;
+    font-family: 'Poppins'!important;
+}
+
+.navbar .nav-links ul li.active a {
+    color: rgb(255, 255, 255)!important;
+    font-weight: 600!important;
+}
+
+  ::-webkit-scrollbar {
+    display : none!important;
+}
+
+::-webkit-scrollbar-track {
+  display : none!important;
+}
+
+.logo {
+    width: 100%!important;
+    height: 100%!important;
+    font-size: 0px!important;
+}
+
+.logo img {
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.image-1 {
+    background-color: rgb(141, 16, 16)!important;
+}
+
+.images-1 {
+    width: 50%!important;
+    height: 50%!important;
+    left: 0!important;
+}
+
+.texte-1 {
+    color: white!important;
+    text-align: center!important;
+    justify-content: center!important;
+
+}
+
+.image-2 {
+    background-color: #4b2961!important;
+}
+
+.images-2 {
+    width: 50%!important;
+    height: 50%!important;
+    left: 0!important;
+}
+
+.texte-2 {
+    color: white!important;
+    text-align: center!important;
+    justify-content: center!important;
+
+}
+
+.image-3 {
+    background-color: #290909!important;
+}
+
+.images-3 {
+    width: 50%!important;
+    height: 50%!important;
+    left: 0!important;
+}
+
+.texte-3 {
+    color: white!important;
+    text-align: center!important;
+    justify-content: center!important;
+}
+
+.image-4 {
+    background-color: #759b9e!important;
+}
+
+.images-4 {
+    width: 50%!important;
+    height: 50%!important;
+    left: 0!important;
+}
+
+.texte-4 {
+    color: white!important;
+    text-align: center!important;
+    justify-content: center!important;
+}

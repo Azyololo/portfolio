@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/icon.png"/>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nom">PORTFOLIO</a>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="logo.html">Logo</a></li>
+                    <li class="active"><a href="header.html">Header</a></li>
+                    <li class="active"><a href="thumbnail.html">Thumbnail</a></li>
+                    <li class="active"><a href="stream.html">Stream</a></li>
+                </ul>
+            </div>
+            <img src="./images/menu-btn.png" alt="Menu" class="menu-bouton">
+        </nav>
+    </header>
+    <div class="card">
+        <div class="content">
+            <div class="avatar">
+                <img src="./images/ayato.png" alt="Avatar">
+            </div>
+            <h1> Azyo </h1>
+            <p>
+                Graphiste amateur, vous trouverez mes différentes créations sur ce site, mais aussi ci-dessous 
+                <br> ↓
+            </p>
+            <a href="https://www.behance.net/azyo" target="_blank">Behance</a>
+        </div>
+    </div>
+</body>
+    <script>
+        const menuBouton = document.querySelector(".menu-bouton")
+        const navLinks = document.querySelector(".nav-links")
+        menuBouton.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu') })
+    </script>
+</html>

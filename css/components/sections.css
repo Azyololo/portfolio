@@ -1,0 +1,35 @@
+.section-header-1 {
+    display: flex!important;
+    min-width: none!important;
+  }
+  
+  .section-header-1:last-child{
+    align-items: center!important;
+  }
+
+.section-logo-1 {
+    display: flex!important;
+    min-width: none!important;
+}
+
+.section-logo-1:last-child{
+    align-items: center!important;
+}
+
+.section-stream-1 {
+    display: flex!important;
+    min-width: none!important;
+}
+  
+  .section-stream-1:last-child{
+    align-items: center!important;
+}
+
+  .section-thumbnail-1 {
+    display: flex!important;
+    min-width: none!important;
+}
+  
+  .section-thumbnail-1:last-child{
+    align-items: center!important;
+}

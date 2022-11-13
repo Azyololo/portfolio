@@ -1,0 +1,23 @@
+.card {
+  background-color: black!important;
+  height: 150px!important;
+  width: 200px!important;
+  background: rgba(255, 255, 255, 0.1)!important;
+  backdrop-filter: blur(5px)!important;
+  border-radius: 15px!important;
+  border-top: 1px solid rgb(125, 125, 125)!important;
+  border-left: 1px solid rgb(125, 125, 125)!important;
+  transform: translate(-50%, 0)!important;
+  margin-left: 25%!important;
+  display: flex!important;
+  flex-direction: column!important;
+  justify-content: center!important;
+  align-items: center!important;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    height: 100px!important;
+    width: 120px!important;
+  }
+}

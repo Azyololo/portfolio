@@ -1,0 +1,22 @@
+.card .content a {
+  color: white!important;
+  text-align: center!important;
+  text-decoration: none!important;
+}
+
+.card .content a {
+  text-transform: uppercase!important;
+  font-size: 20px!important;
+  font-weight: 500!important;
+  background: linear-gradient(to top, #0057ff, #0644be )!important;
+  width: 200px!important;
+  padding:  8px 0!important;
+  border-radius: 8px!important;
+  margin-top: 40px!important;
+  box-shadow: 0 2px 16px 3px#0644be!important;
+  transition: all 0.5s ease!important;
+}
+
+.card a:hover {
+  transform: scale(1.2)!important;
+}

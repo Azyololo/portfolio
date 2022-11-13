@@ -1,0 +1,12 @@
+.card .content .avatar {
+  width: 150px;
+  height: 150px;
+  top: -25px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.card .content .avatar img {
+  width: 100%;
+  height: 100%;
+}

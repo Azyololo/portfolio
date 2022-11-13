@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/components/sections.css">
+    <link rel="icon" type="image/png" href="images/icon.png"/>
+    <title>Logo</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nom">PORTFOLIO</a>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="logo.html">Logo</a></li>
+                    <li class="active"><a href="header.html">Header</a></li>
+                    <li class="active"><a href="thumbnail.html">Thumbnail</a></li>
+                    <li class="active"><a href="stream.html">Stream</a></li>
+                </ul>
+            </div>
+        <img src="./images/menu-btn.png" alt="Menu" class="menu-bouton">
+        </nav>
+    </header>
+    <div class="logo">
+        <img src="./images/Logo.png" alt="Background">
+    </div>
+    <div class="image-1">
+        <section class="section-logo-1">
+            <img class="images-1" src="./images/Logo/Logo 1.PNG" alt="Image 1">
+                <div class="card">
+                    <div class="texte-1">
+                        <p>
+                            Logo 1
+                        </p>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <div class="image-2">
+        <section class="section-logo-1">
+            <img class="images-2" src="./images/Logo/Logo 2.PNG" alt="Image 2">
+                <div class="card">
+                    <div class="texte-2">
+                        <p>
+                            Logo 2
+                        </p>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <div class="image-3">
+        <section class="section-logo-1">
+            <img class="images-3" src="./images/Logo/Logo 3.PNG" alt="Image 3">
+                <div class="card">
+                    <div class="texte-3">
+                        <p>
+                            Logo 3
+                        </p>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <div class="image-4">
+        <section class="section-logo-1">
+            <img class="images-4" src="./images/Logo/Logo 4.PNG" alt="Image 4">
+                <div class="card">
+                    <div class="texte-4">
+                        <p>
+                            Logo 4
+                        </p>
+                    </div>
+                </div>
+        </section>
+    </div>
+</body>
+    <script>
+        const menuBouton = document.querySelector(".menu-bouton")
+        const navLinks = document.querySelector(".nav-links")
+        menuBouton.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu') })
+    </script>
+</html>
